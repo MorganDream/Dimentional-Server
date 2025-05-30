@@ -1,0 +1,39 @@
+{
+  "name": "taro_server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bluebird": "^3.5.28",
+    "@types/node": "^12.12.5",
+    "@types/validator": "^10.11.3",
+    "axios": "^0.19.0",
+    "glob": "^7.1.5",
+    "http2": "^3.3.7",
+    "jwt-simple": "^0.5.6",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-websocket": "^6.0.0",
+    "mysql2": "^2.0.0",
+    "qcloud-cos-sts": "^3.0.2",
+    "sequelize": "^5.21.2",
+    "sequelize-typescript": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/koa": "^2.0.51",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.0.42",
+    "@types/koa-websocket": "^5.0.4",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2"
+  }
+}
