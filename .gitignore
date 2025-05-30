@@ -108,7 +108,4 @@ typings/
 
 .tscache
 
-cert/*
-src/config.ts
-
 # End of https://www.gitignore.io/api/node,visualstudiocode
